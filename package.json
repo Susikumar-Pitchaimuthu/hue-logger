@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Elevate your console logging experience with this vibrant and feature-rich logger. Enjoy a burst of color and style as your messages and errors come to life in the console. This logger not only provides a visually appealing display but also ensures a clear and easy-to-read format for your messages. Whether it's an important notification or a critical error, this logger transforms your console output into an aesthetically pleasing and functionally efficient showcase. Upgrade your debugging and messaging with a touch of elegance – because every log deserves a great look",
   "main": "hue_logger.mjs",
+  "type": "module",
   "scripts": {
-    "test": "Log, Info, Success, Warn, Error"
+    "start": "node hue_logger.mjs"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,16 @@
   "homepage": "https://github.com/Susikumar-Pitchaimuthu/hue-logger#readme",
   "dependencies": {
     "chalk": "^5.3.0"
-  }
+  },
+  "keywords": [
+    "console",
+    "logger",
+    "color",
+    "style",
+    "debugging",
+    "logging",
+    "CLI",
+    "development",
+    "utility"
+  ]
 }
